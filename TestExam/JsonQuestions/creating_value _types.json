@@ -1,0 +1,192 @@
+[
+  {
+    "Level": 1,
+    "Question": "You want to declare an integer variable called myVar and assign it the value 0. How can you\naccomplish this?",
+    "Answers": [
+      {
+        "AnswerProp": "declare myVar as 0;",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "myVar = 0;",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "int myVar = 0",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "int myVar = 0;",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "You need to make a logical comparison where two values must return true in order for your\ncode to execute the correct statement. Which logical operator enables you to achieve this?",
+    "Answers": [
+      {
+        "AnswerProp": "AND",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "|",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "&",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "&&",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "What kind of result is returned in the condition portion of an if statement?",
+    "Answers": [
+      {
+        "AnswerProp": "Boolean",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Integer",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Double",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "String",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "What are the keywords supported in an if statement?",
+    "Answers": [
+      {
+        "AnswerProp": "if, else, else-if, return",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "if, else, else if",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "if, else, else if, break",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "if, else, default",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "In the following code sample, will the second if structure be evaluated?\r\nbool condition = true;\r\nif(condition)\r\nif(5 < 10)\r\nConsole.WriteLine(\"5 is less than 10);",
+    "Answers": [
+      {
+        "AnswerProp": "Yes",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "No",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "If you want to iterate over the values in an array of integers called arrNumbers to perform an action on them, which loop statement enables you to do this?",
+    "Answers": [
+      {
+        "AnswerProp": "foreach (int number in arrNumbers)\r\n{\r\n}",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "for each (int number in arrNumbers)\r\n{\r\n}",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "for (int i; each i in arrNumbers; i++)\r\n{\r\n}",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "foreach (number in arrNumbers)\r\n{\r\n}",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "What is the purpose of break; in a switch statement?",
+    "Answers": [
+      {
+        "AnswerProp": "It causes the program to exit.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It causes the code to exit the switch statement.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "It causes the program to pause.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It causes the code to stop executing until the user presses a key on the keyboard.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "What are the four basic repetition structures in C#?",
+    "Answers": [
+      {
+        "AnswerProp": "for, foreach, loop, while",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "loop, while, do-for, for-each",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "for, foreach, while, do-while",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "do-each, while, for, do",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 1,
+    "Question": "How many times will this loop execute?\r\nint value = 0;\r\ndo\r\n{\r\nConsole.WriteLine (value);\r\n} while value > 10;",
+    "Answers": [
+      {
+        "AnswerProp": "10 times",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "1 time",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "0 times",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "9 times",
+        "IsCorrectAnswer": false
+      }
+    ]
+  }
+]

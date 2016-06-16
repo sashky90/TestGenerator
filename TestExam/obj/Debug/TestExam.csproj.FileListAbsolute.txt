@@ -1,0 +1,7 @@
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\bin\Debug\TestExam.exe.config
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\bin\Debug\TestExam.exe
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\bin\Debug\TestExam.pdb
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\bin\Debug\Newtonsoft.Json.dll
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\bin\Debug\Newtonsoft.Json.xml
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\obj\Debug\TestExam.exe
+c:\users\amilev\documents\visual studio 2015\Projects\CQRCExample\TestExam\obj\Debug\TestExam.pdb

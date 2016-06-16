@@ -1,0 +1,288 @@
+[
+  {
+    "Level": 5,
+    "Question": "Which the following statements about the base keyword is false?",
+    "Answers": [
+      {
+        "AnswerProp": "A constructor can use at most one base statement.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "A constructor cannot use both a base statement and a this statement.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The base keyword lets a constructor invoke a different constructor in the same class.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "If a constructor uses a base statement, its code is executed after the invoked constructor is executed.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Which the following statements about the this keyword is false?",
+    "Answers": [
+      {
+        "AnswerProp": "A constructor can use at most one this statement.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "A constructor can use a this statement and a base statement if the base statement comes first.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The this keyword lets a constructor invoke a different constructor in the same class.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "If a constructor uses a this statement, its code is executed after the invoked constructor is executed.",
+        "IsCorrectAnswer": true
+      }	  
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Suppose you have defined the House and Boat classes and you want to make a HouseBoat class that inherits from both House and Boat. Which of the following approaches would not work?",
+    "Answers": [
+      {
+        "AnswerProp": "Make HouseBoat inherit from both House and Boat.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Make HouseBoat inherit from House and implement an IBoat interface.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Make HouseBoat inherit from Boat and implement an IHouse interface.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Make HouseBoat implement both IHouse and IBoat interfaces.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Suppose the HouseBoat class implements the IHouse interface implicitly and the IBoat interface explicitly. Which of the following statements is false?",
+    "Answers": [
+      {
+        "AnswerProp": "The code can use a HouseBoat object to access its IHouse members.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The code can use a HouseBoat object to access its IBoat members.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The code can treat a HouseBoat object as an IHouse to access its IHouse members.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "The code can treat a HouseBoat object as an IBoat to access its IBoat members.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Which of the following is not a good use of interfaces?",
+    "Answers": [
+      {
+        "AnswerProp": "To simulate multiple inheritance.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "To allow the code to treat objects that implement the interface polymorphically as if they were of the interface’s “class.”",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "To allow the program to treat objects from unrelated classes in a uniform way.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "To reuse the code defined by the interface.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Suppose you want to make a Recipe class to store cooking recipes and you want to sort the\r\nRecipes by the MainIngredient property. In that case, which of the following interfaces\r\nwould probably be most useful?",
+    "Answers": [
+      {
+        "AnswerProp": "IDisposable",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "IComparable",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "IComparer",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "ISortable",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Suppose you want to sort the Recipe class in question 6 by any of the properties\r\nMainIngredient, TotalTime, or CostPerPerson. In that case, which of the\r\nfollowing interfaces would probably be most useful?",
+    "Answers": [
+      {
+        "AnswerProp": "IDisposable",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "IComparable",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "IComparer",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "ISortable",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Which of the following statements is true?",
+    "Answers": [
+      {
+        "AnswerProp": "A class can inherit from at most one class and implement at most one interface.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "A class can inherit from any number classes and implement any number of interfaces.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "A class can inherit from at most one class and implement any number of interfaces.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "A class can inherit from any number of classes and implement at most one interface.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "A program can use the IEnumerable and IEnumerator interfaces to do which of the following?",
+    "Answers": [
+      {
+        "AnswerProp": "Use MoveNext and Reset to move through a list of objects.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Use foreach to move through a list of objects.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Move through a list of objects by index.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use the yield return statement to make a list of objects for iteration.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Which of the following statements about garbage collection is false?",
+    "Answers": [
+      {
+        "AnswerProp": "In general, you can’t tell when the GC will perform garbage collection.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It is possible for a program to run without ever performing garbage collection.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "An object’s Dispose method can call GC.SuppressFinalize to prevent the GC from calling the object’s destructor.",
+        "IsCorrectAnswer": true
+      },
+	  {
+        "AnswerProp": "Before destroying an object, the GC calls its Dispose method.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "Which of the following statements about destructors is false?",
+    "Answers": [
+      {
+        "AnswerProp": "Destructors are called automatically.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Destructors cannot assume that other managed objects exist while they are executing.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Destructors are inherited",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Destructors cannot be overloaded.",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "If a class implements IDisposable, its Dispose method should do which of the following?",
+    "Answers": [
+      {
+        "AnswerProp": "Free managed resources.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Free unmanaged resources.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Call GC.SuppressFinalize.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "All of the above.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 5,
+    "Question": "If a class has managed resources and no unmanaged resources, it should do which of the following?",
+    "Answers": [
+      {
+        "AnswerProp": "Implement IDisposable and provide a destructor.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Implement IDisposable and not provide a destructor.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Not implement IDisposable and provide a destructor.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Not implement IDisposable and not provide a destructor.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  }
+]

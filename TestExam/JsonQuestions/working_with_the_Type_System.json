@@ -1,0 +1,320 @@
+[
+  {
+    "Level": 2,
+    "Question": "What is the maximum value you can store in an int data type?",
+    "Answers": [
+      {
+        "AnswerProp": "Positive infinity",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "32,167",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "65,536",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "4,294,967,296",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "True or false: double and float data types can store values with decimals.",
+    "Answers": [
+      {
+        "AnswerProp": "True",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "False",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "Which declaration can assign the default value to an int type?",
+    "Answers": [
+      {
+        "AnswerProp": "new int();",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "int myInt = new int();",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "int myInt;",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "int myInt = new int(default);",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "True or false: structs can contain methods.",
+    "Answers": [
+      {
+        "AnswerProp": "True",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "False",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What is the correct way to access the firstName property of a struct named Student?",
+    "Answers": [
+      {
+        "AnswerProp": "string name = Student.firstName;",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "string name = Student.firstName();",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "string name = Student(firstName);",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "string name = Student.(firstName);",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "In the following enumeration, what will be the underlying value of Wed?\r\nenum Days {Mon = 1, Tue, Wed, Thur, Fri, Sat, Sun};",
+    "Answers": [
+      {
+        "AnswerProp": "2",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "3",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "4",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It has no numeric value.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What are two methods with the same name but with different parameters?",
+    "Answers": [
+      {
+        "AnswerProp": "Overloading",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Overriding",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Duplexing",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Duplicate",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What is the parameter in this method known as?\r\npublic void displayAbsoluteValue(int value = 1)",
+    "Answers": [
+      {
+        "AnswerProp": "Modified",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Optional",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Named",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Default",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "When you create an abstract method, how do you use that method in a derived class?",
+    "Answers": [
+      {
+        "AnswerProp": "You must overload the method in your derived class.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "You must override the method in your derived class.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Abstract methods cannot be used in derived classes.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "You need to declare the method as virtual in your derived class.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "How do you enforce encapsulation on the data members of your class?",
+    "Answers": [
+      {
+        "AnswerProp": "Create private data members.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Create private methods.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use public properties.",
+        "IsCorrectAnswer": true
+      },
+	  {
+        "AnswerProp": "Use private properties.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use the protected access modifier on methods, properties, and member variables.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "Boxing refers to:",
+    "Answers": [
+      {
+        "AnswerProp": "Encapsulation",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Converting a value type to a reference type",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Converting a reference type to a value type",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Creating a class to wrap functionality in a single entity",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What is one advantage of using named parameters?",
+    "Answers": [
+      {
+        "AnswerProp": "You can pass the arguments in to the method in any order using the parameter names.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "You can pass in optional arguments as long as you use the parameter names in your arguments.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Named parameters make compiling much faster.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Name parameters do not affect compile time.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What is an advantage of using generics in .NET?",
+    "Answers": [
+      {
+        "AnswerProp": "Generics enable you to create classes that span types.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Generics enable you to create classes that accept the type at creation time.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Generics perform better than nongeneric classes.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Generics do not use optional parameters.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "What does the <T> designator indicate in a generic class?",
+    "Answers": [
+      {
+        "AnswerProp": "It is the parameter for all arguments passed in to the class constructor.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It is the parameter designator for the default method of the class.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "It is a placeholder that will contain the object type used.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "It is a placeholder that will serve as the class name.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 2,
+    "Question": "How are the values passed in generic methods?",
+    "Answers": [
+      {
+        "AnswerProp": "They are passed by value.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "They are passed by reference.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "They must be encapsulated in a property.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "They are passed during class instantiation.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  }
+]

@@ -1,0 +1,288 @@
+[
+  {
+    "Level": 4,
+    "Question": "To parse a string that might contain a currency value such as $1,234.56, you should pass the Parse or TryParse method which of the following values?",
+    "Answers": [
+      {
+        "AnswerProp": "NumberStyles.AllowCurrencySymbol",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "NumberStyles.AllowThousands",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "NumberStyles.Currency",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "A combination of all NumberStyles values",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following statements is true for widening conversions?",
+    "Answers": [
+      {
+        "AnswerProp": "Any value in the source type can fit into the destination type.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The conversion will not result in loss of magnitude but may result is some loss of precision.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "An explicit cast is optional.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "All of the above.",
+        "IsCorrectAnswer": true
+      }	  
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following statements is true for narrowing conversions?",
+    "Answers": [
+      {
+        "AnswerProp": "The conversion will not result in loss of magnitude but may result is some loss of precision.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The source and destination types must be compatible.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "An explicit cast is optional.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "A cast can convert a string into an int if the string holds numeric text.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Assuming total is a decimal variable holding the value 1234.56, which of the following statements displays total with the currency format $1,234.56?",
+    "Answers": [
+      {
+        "AnswerProp": "Console.WriteLine(total.ToString());",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Console.WriteLine(total.ToCurrencyString());",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Console.WriteLine(total.ToString(\"c\"));",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Console.WriteLine(Format(\"{0:C}\", total);",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following statements generates a string containing the text \"Veni, vidi, vici\"?",
+    "Answers": [
+      {
+        "AnswerProp": "String.Format(\"{0}, {1}, {2}\", Veni, vidi, vici)",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "String.Format(\"{1}, {2}, {3}\", \"Veni\", \"vidi\", \"vici\")",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "String.Format(\"{2}, {0}, {3}\", \"vidi\", \"Venti\", \"Veni\", \"vici\")",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "String.Format(\"{Veni, vidi, vici}\")",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "If i is an int and l is a long, which of the following statements is true?",
+    "Answers": [
+      {
+        "AnswerProp": "i = (int)l is a narrowing conversion.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "l = (long)i is a narrowing conversion.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "l = (long)i could cause an integer overflow.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "The correct way to copy i’s value into l is l = long.Parse(i).",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following methods is the best way to store an integer value typed by the user in a variable?",
+    "Answers": [
+      {
+        "AnswerProp": "ToString",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Convert",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "ParseInt",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "TryParse",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "The statement object obj = 72 is an example of which of the following?",
+    "Answers": [
+      {
+        "AnswerProp": "Explicit conversion",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Immutable conversion",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Boxing",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Unboxing",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "If Employee inherits from Person and Manager inherits from Employee, which of the following statements is valid?",
+    "Answers": [
+      {
+        "AnswerProp": "Person alice = new Employee();",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Employee bob = new Person();",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Manager cindy = new Employee();",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Manager dan = (Manager)(new Employee());",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following is not a String method?",
+    "Answers": [
+      {
+        "AnswerProp": "IndexOf",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "StartsWith",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "StopsWith",
+        "IsCorrectAnswer": true
+      },
+	  {
+        "AnswerProp": "Trim",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following techniques does not create a String containing 10 spaces?",
+    "Answers": [
+      {
+        "AnswerProp": "Set a String variable equal to a literal containing 10 spaces.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use a String constructor passing it an array of 10 space characters.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use a String constructor passing it the space character and 10 as the number of times it should be repeated.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use the String class’s Space method passing it 10 as the number of spaces the string should contain.",
+        "IsCorrectAnswer": true
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following statements can you use to catch integer overflow and underflow errors?",
+    "Answers": [
+      {
+        "AnswerProp": "checked",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "overflow",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "watch",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "try",
+        "IsCorrectAnswer": false
+      }
+    ]
+  },
+  {
+    "Level": 4,
+    "Question": "Which of the following techniques should you use to watch for floating point operations that cause overflow or underflow?",
+    "Answers": [
+      {
+        "AnswerProp": "Use a checked block.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Use a try-catch block.",
+        "IsCorrectAnswer": false
+      },
+      {
+        "AnswerProp": "Check the result for the value Infinity or NegativeInfinity.",
+        "IsCorrectAnswer": true
+      },
+      {
+        "AnswerProp": "Check the result for Error.",
+        "IsCorrectAnswer": false
+      }
+    ]
+  }
+]
